@@ -1,0 +1,11 @@
+/Users/minhduc/Projects/Demoapp/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.deps.json
+/Users/minhduc/Projects/Demoapp/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.runtimeconfig.json
+/Users/minhduc/Projects/Demoapp/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.runtimeconfig.dev.json
+/Users/minhduc/Projects/Demoapp/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.dll
+/Users/minhduc/Projects/Demoapp/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.pdb
+/Users/minhduc/Projects/Demoapp/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.csprojAssemblyReference.cache
+/Users/minhduc/Projects/Demoapp/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.csproj.CoreCompileInputs.cache
+/Users/minhduc/Projects/Demoapp/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.AssemblyInfoInputs.cache
+/Users/minhduc/Projects/Demoapp/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.AssemblyInfo.cs
+/Users/minhduc/Projects/Demoapp/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.dll
+/Users/minhduc/Projects/Demoapp/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.pdb
