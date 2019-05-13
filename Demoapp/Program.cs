@@ -2,23 +2,32 @@
 
 class demo
 {
-    // Program to find largest and smallest element in an array
+    // Program to find Largest common Multiply of two numbers
+    static int gcd(int a, int b){ // gcd = greatest common Denominator
 
-    static void FindMinMaxArray(int[] Arr){
-        int Max = Arr[0];
-        int Min = Arr[0];
-        
-        for(int i = 1; i < Arr.Length ; i++ ){
-            if(Max < Arr[i]){ Max = Arr[i] ;};
-            if(Min > Arr[i]){ Min = Arr[i] ;};
-
+        // = 0
+        if(a == 0 || b == 0){
+            return a;
         }
-        Console.WriteLine($"Max la " + Max + ", va Min la "+Min );
+        // == nhau 
+        if(a == b){
+            return a;
+        }
+        // > 
+        if( a > b ){
+            return gcd(a-b,b); // recursion 
+        }else{
+            return gcd(a,b-a);
+        }
     }
+
+    static void lcm(int a,int b){
+         Console.WriteLine((a*b)/gcd(a,b));
+    }
+
     static void Main(string[] args)
     {
-        int[] demoArr = new int[]{42,12,42,3,88};
-        FindMinMaxArray(demoArr);
- 
+        int a = 15,b=25;
+        lcm(a,b);
     }
 }
