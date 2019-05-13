@@ -9,3 +9,14 @@
 /Users/minhduc/Projects/Demoapp/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.AssemblyInfo.cs
 /Users/minhduc/Projects/Demoapp/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.dll
 /Users/minhduc/Projects/Demoapp/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.pdb
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.deps.json
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.runtimeconfig.json
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.runtimeconfig.dev.json
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.dll
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/bin/Debug/netcoreapp2.1/Demoapp.pdb
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.csprojAssemblyReference.cache
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.csproj.CoreCompileInputs.cache
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.AssemblyInfoInputs.cache
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.AssemblyInfo.cs
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.dll
+/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/obj/Debug/netcoreapp2.1/Demoapp.pdb
