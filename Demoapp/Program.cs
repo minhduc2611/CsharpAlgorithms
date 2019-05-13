@@ -2,24 +2,23 @@
 
 class demo
 {
-    // Find the two repeating elements in a given array
-    static void CheckIfHasRepeat(int[] arr){
-        int i,j;
-        Console.WriteLine("the repeated elements are : ");
-        for(i = 0 ; i < arr.Length ; i++){
-            for(j = i+1; j<arr.Length; j++){
-                if(arr[j] == arr[i]){
-                    Console.WriteLine(arr[i]+" ");      
-                }
-            }
+    // Program to find largest and smallest element in an array
+
+    static void FindMinMaxArray(int[] Arr){
+        int Max = Arr[0];
+        int Min = Arr[0];
+        
+        for(int i = 1; i < Arr.Length ; i++ ){
+            if(Max < Arr[i]){ Max = Arr[i] ;};
+            if(Min > Arr[i]){ Min = Arr[i] ;};
+
         }
-
-
+        Console.WriteLine($"Max la " + Max + ", va Min la "+Min );
     }
     static void Main(string[] args)
     {
-        int[] Arr = new int[] {1,2,3,1,2};
-
-        CheckIfHasRepeat(Arr);
+        int[] demoArr = new int[]{42,12,42,3,88};
+        FindMinMaxArray(demoArr);
+ 
     }
 }
