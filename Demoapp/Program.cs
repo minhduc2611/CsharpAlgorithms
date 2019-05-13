@@ -2,27 +2,25 @@
 
 class demo
 {
-    // POINTER VÀ DELEGATE C# 
-    static Func<int,int, int> FunctionPointers = null; // thuộc dạng Delegate :  lấy vào 2 int va trả về 1 int => tổng cộng co 3 int nhé 
+    //viet mot ham de trao doi hai gia tri bang POINTER
+     static unsafe void swap(int* num1,int* num2){
+         int temp;
+         temp = *num1;
+         *num1 = *num2;
+         *num2 = temp;
+    }
     static unsafe void Main(string[] args)
     {
-        FunctionPointers = sub;
-        Console.WriteLine(FunctionPointers(1,2));  
-        FunctionPointers = min;
-        Console.WriteLine(FunctionPointers(1,2));  
-        FunctionPointers = mul;
-        Console.WriteLine(FunctionPointers(1,2));  
+        Console.WriteLine("num 1");
+        int num1 = Convert.ToInt32( Console.ReadLine());
+        Console.WriteLine("num 2");
+        int num2 = Convert.ToInt32( Console.ReadLine());
+
+        swap(&num1, &num2);
+
+        Console.WriteLine($"\nSau khi trao doi:");
+        Console.WriteLine($"\nSo thu nhat:"+ num1);
+        Console.WriteLine($"\nSo thu hai:"+ num2);
     }
 
-    static public int sub(int a, int b){
-        return a+b;
-    }
-
-    static public int min(int a, int b){
-        return a-b;
-    }
-
-    static public int mul(int a, int b){
-        return a*b;
-    }
 }
