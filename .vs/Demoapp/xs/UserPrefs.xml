@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{36AABB54-7CC6-4EFC-861C-C9AD75749AD0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demoapp/Program.cs">
+    <Files>
+      <File FileName="Demoapp/Program.cs" Line="47" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Demoapp" expanded="True">
+            <Node name="Demoapp" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Demoapp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../Demoapp/Program.cs" line="49" offsetX="480" offsetY="295" expression="arr" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Program.cs" relfile="Demoapp/Program.cs" line="31" column="1" />
+      <Breakpoint file="/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Program.cs" relfile="Demoapp/Program.cs" line="34" column="1" />
+      <Breakpoint file="/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Program.cs" relfile="Demoapp/Program.cs" line="39" column="1" />
+      <Breakpoint file="/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Program.cs" relfile="Demoapp/Program.cs" line="41" column="1" />
+      <Breakpoint file="/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Program.cs" relfile="Demoapp/Program.cs" line="49" column="1" />
+      <Breakpoint file="/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Program.cs" relfile="Demoapp/Program.cs" line="51" column="1" />
+      <Breakpoint file="/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Program.cs" relfile="Demoapp/Program.cs" line="54" column="1" />
+      <Breakpoint file="/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Program.cs" relfile="Demoapp/Program.cs" line="66" column="1" />
+      <Breakpoint file="/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Program.cs" relfile="Demoapp/Program.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
