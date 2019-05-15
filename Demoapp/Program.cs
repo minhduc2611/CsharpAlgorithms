@@ -2,7 +2,7 @@
 
 class demo
 {
-    // Simple Binary tree
+    // Sort a array By Binary tree
 
 
    //--- ------- ----- ------- ---- -- node model--- ------- ---- --
@@ -16,6 +16,7 @@ class demo
    //  --------- ------- ---- -- --- function insert --- ------- ---- --
            public void Insert(int i)
         {
+           // thuc hien insert khi co root
            if( i <= Data ){
               //left
               if(this.Left == null){
@@ -47,23 +48,19 @@ class demo
           this.Right.PrintInOrder();
        }
     }
-    }
+   }
+
    static void Main(string[] args) {
-            Node nums = new Node(50);
-            nums.Insert(17);
-            nums.Insert(23);
-            nums.Insert(12);
-            nums.Insert(19);
-            nums.Insert(54);
-            nums.Insert(9);
-            nums.Insert(14);
-            nums.Insert(67);
-            nums.Insert(76);
-            nums.Insert(72);
 
-            nums.PrintInOrder();
+      int[] arr = new int[]{4,2,3,5,7,2,1,7,5};
+      Node BinaryTree = new Node(arr[0]);
 
+      for(int i = 1; i< arr.Length ; i++){
+         BinaryTree.Insert(arr[i]); 
       }
+      BinaryTree.PrintInOrder();
+      
+   }
    
 }
 
