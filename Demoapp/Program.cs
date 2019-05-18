@@ -3,17 +3,16 @@
 class demo
 {
     // factorial
-    public static int factorial(int i )
+    public static int Sum_of_digits(int num )
     {
-        if( i==1 )
-            return 1;
-        else return i * factorial(i-1);
+        if( num==0 )
+            return 0 ;
+        else return num%10 + Sum_of_digits(num/10);
     }
     
     static void Main(string[] args)
     {        
-        Console.WriteLine(factorial(3));
+        Console.WriteLine(Sum_of_digits(13));
     }
 
 }
-
