@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Demoapp.csproj",
+      "projectUniqueName": "/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/CsharpAlgorithms/Demoapp/Demoapp.csproj",
       "projectName": "Demoapp",
-      "projectPath": "/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/Demoapp.csproj",
+      "projectPath": "/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/CsharpAlgorithms/Demoapp/Demoapp.csproj",
       "packagesPath": "/Users/minhduc/.nuget/packages/",
-      "outputPath": "/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/Demoapp/obj/",
+      "outputPath": "/Users/minhduc/Desktop/MINHDUC/code/github/CsharpAlgorithms/CsharpAlgorithms/Demoapp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
