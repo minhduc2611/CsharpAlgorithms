@@ -2,17 +2,25 @@
 
 class demo
 {
-    // factorial
-    public static int Sum_of_digits(int num )
+    // calculate Power of a number using recursion
+    internal static double Power(double num, int exponent )
     {
-        if( num==0 )
-            return 0 ;
-        else return num%10 + Sum_of_digits(num/10);
+        if(exponent < 0 ){
+        throw new Exception();
+        }
+        else if(exponent == 0){
+            return 1;
+        }else if(exponent ==1 )
+        {
+            return num;
+        }else{
+            return num * Power(num,exponent-1);
+        }
     }
     
     static void Main(string[] args)
     {        
-        Console.WriteLine(Sum_of_digits(13));
+        Console.WriteLine(Power(2,3));
     }
 
 }
