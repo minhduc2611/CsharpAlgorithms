@@ -3,84 +3,43 @@
 class demo
 {
     // linked list
-    public class Node{
-        public Object Element;
-        public Node Next;
-        public Node(){
-            Element = null;
-            Next = null;
-        }
-        public Node(Object theElement){
-            this.Element = theElement;
-            Next = null;
+    public static void bubbleSort(int[] Arr)
+    {
+        Boolean isSorted = false;
+        int LastUnsortIndex = Arr.Length - 1;
+        while (!isSorted)
+        {
+            isSorted = true;
+            for (int i = 0; i < LastUnsortIndex; i++)
+            {
+                if (Arr[i] > Arr[i + 1])
+                {
+                    //swap(Arr, Arr[i], Arr[i + 1]);
+                 int temp = Arr[i];
+                Arr[i] = Arr[i+1];
+                Arr[i+1] = temp;
+                }
+                isSorted = false;
+            }
+            LastUnsortIndex--;
         }
     }
-        public class LinkedList{
-            protected Node Header;
-            public LinkedList(){
-                Header = new Node("Header");
-            }
-            private Node FindNode(Object Item){
-                Node Current = new Node();
-                Current = Header;
-                // iteration 
-                while(Current.Element != Item) // Current.Element 
-                    Current = Current.Next;
-                return Current;
-            }
-            public void Insert(Object newItem ){
-               // check if got the second one after "header"
-               Node Current = new Node();
-               Node NewNode = new Node(newItem);
-               Current = Header;
-               while(!(Current.Next == null)){
-                   Current = Current.Next;
-               }
-               Current.Next = NewNode;
-            }
-            public void InsertNewAfter(Object ItemBeforeNewItem,Object newItem ){
-                Node Current = new Node();  
-                Node NewNode = new Node(newItem); 
-                Current = FindNode(ItemBeforeNewItem); // đằng sau cái node ( = ItemBeforeNewItem.Next )
-                NewNode.Next = Current.Next;  
-                Current.Next = NewNode; // ??tráo đổi 
-            }
+    public static void swap(int[] Arr, int a, int b)
+    {
+        int temp = Arr[a];
+        Arr[a] = Arr[b];
+        Arr[b] = temp;
+    }
 
-            public Node FindPrevious(Object n){
-                Node Current = Header;
-                while(!(Current.Next == null) && (Current.Next.Element != n)  ) // Current.Next.Element 
-                    Current = Current.Next;
-                return Current;
-            }
-
-            public void Remove(Object n){
-                Node PreviousNode = FindPrevious(n);
-                if(!(PreviousNode.Next == null))
-                    PreviousNode.Next = PreviousNode.Next.Next;
-            }
-
-            public void PrintList(){
-                Node Current = new Node();
-                Current = Header; 
-                while(!(Current.Next == null)){
-                    Console.WriteLine(Current.Next.Element);
-                    Current = Current.Next;
-                }
-            }
-        }
     static void Main(string[] args)
     {
-        LinkedList List = new LinkedList();
-        List.Insert("Meow"); 
-        List.Insert("wooof"); 
-        List.Insert("rrrrr"); 
-        List.Insert("quack"); 
-        // List.InsertNewAfter("Meow","wooof");List.InsertNewAfter("wooof","rrrrr");
-        // List.InsertNewAfter("rrrrr","qwuak quack");
+        int[] Arr = new int[] { 17, 3, 9, 45, 12, 4, 5, 23 };
 
-        // List.Remove("rrrrr");
-        List.PrintList();
-     
+        bubbleSort(Arr);
+
+        for(int a = 0; a< Arr.Length;a++){
+        Console.Write(Arr[a]+" ");
+        }
     }
 
 }
